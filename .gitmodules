@@ -1,0 +1,3 @@
+[submodule "Derelict3"]
+	path = Derelict3
+	url = https://github.com/aldacron/Derelict3.git

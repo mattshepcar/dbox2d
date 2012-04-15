@@ -1,0 +1,251 @@
+<DProject>
+ <ProjectGuid>{8B377B27-57BA-41CD-93BE-4B400FCE2250}</ProjectGuid>
+ <Config name="Debug">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>1</lib>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <symdebug>1</symdebug>
+  <optimize>0</optimize>
+  <cpu>0</cpu>
+  <isX86_64>0</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <noboundscheck>0</noboundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>0</useInline>
+  <release>0</release>
+  <preservePaths>0</preservePaths>
+  <warnings>0</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <Dversion>2</Dversion>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <otherDMD>0</otherDMD>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath>../Derelict3/import</imppath>
+  <fileImppath />
+  <outdir>$(ConfigurationName)</outdir>
+  <objdir>$(OutDir)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(IntDir)\$(TargetName).json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>1</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <objfiles />
+  <linkswitches />
+  <libfiles />
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(OutDir)\$(ProjectName).lib</exefile>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <debugtarget>$(TARGETPATH)</debugtarget>
+  <debugarguments />
+  <debugworkingdir />
+  <debugattach>0</debugattach>
+  <debugremote />
+  <debugEngine>0</debugEngine>
+  <debugStdOutToOutputWindow>1</debugStdOutToOutputWindow>
+  <pauseAfterRunning>0</pauseAfterRunning>
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>
+ </Config>
+ <Config name="Release">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>1</lib>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <symdebug>0</symdebug>
+  <optimize>1</optimize>
+  <cpu>0</cpu>
+  <isX86_64>0</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <noboundscheck>0</noboundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>1</useInline>
+  <release>1</release>
+  <preservePaths>0</preservePaths>
+  <warnings>0</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <Dversion>2</Dversion>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <otherDMD>0</otherDMD>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath />
+  <fileImppath />
+  <outdir>$(ConfigurationName)</outdir>
+  <objdir>$(OutDir)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(IntDir)\$(TargetName).json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>0</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <objfiles />
+  <linkswitches />
+  <libfiles />
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(OutDir)\$(ProjectName).lib</exefile>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <debugtarget>$(TARGETPATH)</debugtarget>
+  <debugarguments />
+  <debugworkingdir />
+  <debugattach>0</debugattach>
+  <debugremote />
+  <debugEngine>0</debugEngine>
+  <debugStdOutToOutputWindow>1</debugStdOutToOutputWindow>
+  <pauseAfterRunning>0</pauseAfterRunning>
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>
+ </Config>
+ <Folder name="Box2d">
+  <Folder name="Collision">
+   <Folder name="Shapes">
+    <File path="Collision\Shapes\b2ChainShape.d" />
+    <File path="Collision\Shapes\b2CircleShape.d" />
+    <File path="Collision\Shapes\b2EdgeShape.d" />
+    <File path="Collision\Shapes\b2PolygonShape.d" />
+    <File path="Collision\Shapes\b2Shape.d" />
+   </Folder>
+   <File path="Collision\b2BroadPhase.d" />
+   <File path="Collision\b2CollideCircle.d" />
+   <File path="Collision\b2CollideEdge.d" />
+   <File path="Collision\b2CollidePolygon.d" />
+   <File path="Collision\b2Collision.d" />
+   <File path="Collision\b2Distance.d" />
+   <File path="Collision\b2DynamicTree.d" />
+   <File path="Collision\b2TimeOfImpact.d" />
+  </Folder>
+  <Folder name="Common">
+   <File path="Common\b2Draw.d" />
+   <File path="Common\b2GrowableStack.d" />
+   <File path="Common\b2Math.d" />
+   <File path="Common\b2Settings.d" />
+   <File path="Common\b2Timer.d" />
+  </Folder>
+  <Folder name="Dynamics">
+   <File path="Dynamics\b2Body.d" />
+   <File path="Dynamics\b2ChainAndCircleContact.d" />
+   <File path="Dynamics\b2ChainAndPolygonContact.d" />
+   <File path="Dynamics\b2CircleContact.d" />
+   <File path="Dynamics\b2Contact.d" />
+   <File path="Dynamics\b2ContactManager.d" />
+   <File path="Dynamics\b2ContactSolver.d" />
+   <File path="Dynamics\b2DistanceJoint.d" />
+   <File path="Dynamics\b2EdgeAndCircleContact.d" />
+   <File path="Dynamics\b2EdgeAndPolygonContact.d" />
+   <File path="Dynamics\b2Fixture.d" />
+   <File path="Dynamics\b2FrictionJoint.d" />
+   <File path="Dynamics\b2GearJoint.d" />
+   <File path="Dynamics\b2Island.d" />
+   <File path="Dynamics\b2Joint.d" />
+   <File path="Dynamics\b2MotorJoint.d" />
+   <File path="Dynamics\b2MouseJoint.d" />
+   <File path="Dynamics\b2PolygonAndCircleContact.d" />
+   <File path="Dynamics\b2PolygonContact.d" />
+   <File path="Dynamics\b2PrismaticJoint.d" />
+   <File path="Dynamics\b2PulleyJoint.d" />
+   <File path="Dynamics\b2RevoluteJoint.d" />
+   <File path="Dynamics\b2RopeJoint.d" />
+   <File path="Dynamics\b2TimeStep.d" />
+   <File path="Dynamics\b2WeldJoint.d" />
+   <File path="Dynamics\b2WheelJoint.d" />
+   <File path="Dynamics\b2World.d" />
+   <File path="Dynamics\b2WorldCallbacks.d" />
+  </Folder>
+  <Folder name="Rope">
+   <File path="Rope\b2Rope.d" />
+  </Folder>
+  <File path="all.d" />
+ </Folder>
+</DProject>
